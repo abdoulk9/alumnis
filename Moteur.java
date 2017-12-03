@@ -2,9 +2,9 @@ package tp1;
 
   abstract class  Moteur{
 	
-	 private TypeMoteur type; 
-	 private String cylindre;
-	  private Double prix;
+	 prptected  TypeMoteur type; 
+	 protected  String cylindre;
+	  protected  Double prix;
 	 
 	//Constructeur de la classe 
 	 public Moteur(String cylindre, Double prix) {
